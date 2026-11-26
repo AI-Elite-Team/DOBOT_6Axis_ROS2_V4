@@ -80,6 +80,7 @@ RobotMode()
 GetErrorID()
 ClearError()
 GetErrorID()
+EnableRobot()
 # Press Ctrl+C to disconnect.
 ```
 
