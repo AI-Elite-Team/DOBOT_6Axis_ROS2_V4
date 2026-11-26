@@ -71,6 +71,19 @@ source ~/.bashrc
 
 ## Usage
 
+### 0. Remove warning ()
+```bach
+# Connect
+nc -v 192.168.5.1 29999
+# send these commands individually
+RobotMode()
+GetErrorID()
+ClearError()
+GetErrorID()
+# Press Ctrl+C to disconnect.
+```
+
+
 ### 1. RViz Visualization (Standalone)
 
 Visualize the robot model without a physical robot:
